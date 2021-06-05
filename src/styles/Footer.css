@@ -1,0 +1,26 @@
+footer{
+	height: 124px;
+	background: #3F3D56;
+}
+footer p{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+
+    margin-left: 40px;
+  	float: left;
+  	top: 30%;
+  	position: relative;
+
+  	color: #FFFFFF;
+  	opacity: 0.4;
+}
+footer a{
+	margin-right: 15px;
+    float: right;
+    overflow: hidden;
+    top: 35%;
+    position: relative;
+}

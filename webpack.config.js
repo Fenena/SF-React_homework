@@ -39,11 +39,6 @@ module.exports = {
                 loader: 'babel-loader'
             }
         },
-		/*{
-			test: /\.js$/,
-			exclude: '/node_module/',
-			use: 'eslint-loader'
-		}*/
         ]
     },
     plugins: [
