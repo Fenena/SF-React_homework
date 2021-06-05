@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 
 import "../styles/Header.css";
+import "../img/Logo.svg";
+
 
 function Header(){
 	let textBtn = "Войти";
@@ -13,7 +15,7 @@ function Header(){
 		<header>
 	  		<noscript>Ваш браузер не поддерживает JavaScript!</noscript>
 	  		<a className={ "navbar-logo" } href="#">
-	      		<img src="../img/Logo.svg" alt="Логотип SkillDrive"></img>
+	      		<img src=".img/Logo.svg/" alt="Логотип SkillDrive"></img>
 	  		</a>
 			<div id="burger1"></div>
 			<div id="burger2"></div>

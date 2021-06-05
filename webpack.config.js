@@ -39,6 +39,21 @@ module.exports = {
                 loader: 'babel-loader'
             }
         },
+        {
+            test: /\.(png|jpg|jpeg|gif|svg)$/i,
+            dependency: { not: ['url'] },
+            use: [
+                {
+                    loader: 'file-loader',
+                    options: {
+                        name: "[name].[ext]",
+                        outputPath: "./src/img",
+                        esModule: false
+                    }
+                },
+            ],
+            //type: 'javascript/auto'
+        },
         ]
     },
     plugins: [
